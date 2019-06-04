@@ -6,10 +6,11 @@ html
     style
       | .main-body { margin: 1rem; }
       | .main-body ul { margin-bottom: 2rem; }
+      | .degree { text-transform: uppercase; font-size: .8rem; color: #999; letter-spacing: .05rem; margin-left: .5rem; }
   body
     .container
       p.has-text-centered(style='margin-top: 2rem')
-        img(src='./logo.jpg')
+        img(src='./logo.jpg' width='50%')
 
       .hero
         .hero-body
@@ -19,49 +20,55 @@ html
 
             h2.subtitle
               | 5 de junho de 2019, 18:45
+              br
               | Classe da Professora Teresa Raminhos
 
       .main-body
-        :markdown-it
-          **Matilde Pinho**
+        :markdown-it(html='true')
+          **Eva Baptista** <span class='degree'>Iniciação I</span>
+
+          * Hino da Alegria - _Beethoven_
+
+          **Beatriz Amaral** <span class='degree'>Iniciação IV</span>
+
+          * Rustic Dance - _Barbara Kreader_
+
+          **Gabriel Santos** <span class='degree'>1.º Grau</span>
+
+          * Estudo n.º 27 op. 599 - _Czerny_
+          * Musette - _Bach_
+
+          **Leonor Ferreira** <span class='degree'>1.º Grau</span>
+
+          * Estudo n.º 14 op. 599 - _Czerny_
+
+          **Luciano Pires** <span class='degree'>2.º Grau</span>
+
+          * Trumpet Menuet - _Duncombe_
+
+          **Matilde Pinho** <span class='degree'>2.º Grau</span>
 
           * Estudo n.º 61 op. 599 - _Czerny_
           * Menuet em Ré menor (livro de Anna Magdalena Bach) - _Bach_
 
-          **Alix Fernandes**
+          **Alix Fernandes** <span class='degree'>2.º Grau</span>
 
-          * Estudo n.º 56 op. 599 - Czerny
+          * Estudo n.º 56 op. 599 - _Czerny_
 
-          **Luciano Pires**
+          **Rodrigo Sobral** <span class='degree'>3.º Grau</span>
 
-          * Trumpet Menuet - Duncombe
+          * Nocturne - _Mona Rejino_
 
-          **Leonor Ferreira**
+          **Rodrigo Marques** <span class='degree'>3.º Grau</span>
 
-          * Estudo n.º 14 op. 599 - Czerny
+          * Bourée em Si menor - _Bach_
+          * La Chevaleresque - _Burgmüller_
 
-          **Rodrigo Marques**
+          **Ana Marques** <span class='degree'>I.T. 2</span>
 
-          * Bourée em Si menor - Bach
-          * La Chevaleresque - Burgmüller
+          * Coral n.º 112 - _Bach_
 
-          **Rodrigo Sobral**
-
-          * Nocturne - Mona Rejino
-
-          **Ana Marques**
-
-          * Coral n.º 112 - Bach
-
-          **Eva Baptista**
-
-          * Hino da Alegria - Beethoven
-
-          **Gabriel Santos**
-
-          * Estudo n.º 27 op. 599 - Czerny
-          * Musette - Bach
-
-          **Beatriz Amaral**
-
-          * Rustic Dance - Barbara Kreader
+        .section.has-text-centered
+          p
+            | A Prof. Teresa Raminhos deseja a todos os Pais e Encarregados de
+            | Educação umas boas férias!
