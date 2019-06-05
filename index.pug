@@ -13,13 +13,17 @@ html
       .hero
         .hero-body
           .has-text-centered
-            h1.title
-              | Audição de Piano
+            .is-hidden
+              h1.title
+                | Audição de Piano
 
-            h2.subtitle
-              | 5 de junho de 2019, 18:45
-              br
-              | Classe da Professora Teresa Raminhos
+              h2.subtitle
+                | 5 de junho de 2019, 18:45
+                br
+                | Classe da Professora Teresa Raminhos
+
+            h2.title
+              | Programa
 
       .main-body
         :markdown-it(html='true')
