@@ -1,0 +1,72 @@
+html
+  head
+    meta(charset='utf-8')
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css")
+    style
+      | .main-body { margin: 1rem; }
+      | .main-body ul { margin-bottom: 2rem; }
+      | .degree { text-transform: uppercase; font-size: .8rem; color: #999; letter-spacing: .05rem; margin-left: .5rem; }
+  body
+    //img(src='./cartaz.jpg' width='100%')
+    .container
+      .hero
+        .hero-body
+          .has-text-centered
+            .is-hidden
+              h1.title
+                | Audição de Piano
+
+              h2.subtitle
+                | 11 de dezembo de 2020, 19:30
+                br
+                | Classe da Professora Teresa Raminhos
+
+            h2.title
+              | Programa
+
+      .main-body
+        :markdown-it(html='true')
+          **Pablo Malave** <span class='degree'>Iniciação II</span>
+
+          * Mister Machine — Bill Boyd
+          * Water Lily — Phillip Keveren
+
+          **Eva Baptista** <span class='degree'>Iniciação III</span>
+
+          * Variation en Sol — Hervé/Pouillard
+          * All I Want For Christmas Is You — arr. Thompson
+
+          **Manuel Soares** <span class='degree'>2.º Grau</span>
+
+          * Polonaise em Sol menor — J.S. Bach
+          * The Song of Twilight — Yoshinao Nakada
+
+          **Gabriel Ferreira** <span class='degree'>2.º Grau</span>
+
+          * Innocence — Burgmüller
+          * Gypsy Tango — Gerald Martin
+
+          **Gonçalo Soares** <span class='degree'>2.º Grau</span>
+
+          * Menuet em Sol menor — J.S. Bach
+          * Whispered Promise — Phillip Keveren
+
+          **Beatriz Amaral** <span class='degree'>2.º Grau</span>
+
+          * Estudo n.° 46 op. 599 — Czerny
+          * Alone — Christopher Norton
+
+          **Matilde Pinho** <span class='degree'>4.º Grau</span>
+
+          * Estudo n.° 1 op. 299 — Czerny
+
+          **Rodrigo Marques** <span class='degree'>5.º Grau</span>
+
+          * Invenção a 3 vozes n.° 11 — J.S. Bach
+          * Nocturne n.° 2 op. 9 — F. Chopin
+
+        .section.has-text-centered
+          p
+            | A Professora Teresa Raminhos deseja a todos um Feliz Natal em
+            | família e cheia de música!
