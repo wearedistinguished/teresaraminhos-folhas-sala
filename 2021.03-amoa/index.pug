@@ -7,8 +7,10 @@ html
       | .main-body { margin: 1rem; }
       | .main-body ul { margin-bottom: 2rem; }
       | .degree { text-transform: uppercase; font-size: .8rem; color: #999; letter-spacing: .05rem; margin-left: .5rem; }
+      | .splash { max-height: 50vh; }
   body
-    img(src='bg.jpg')
+    p.has-text-centered
+      img.splash(src='bg.jpg')
 
     .container
       .hero
@@ -54,7 +56,10 @@ html
           * Estudo op. 25 n.° 2 — F. Chopin
           * Prelúdio e Fuga em Dó menor — J.S. Bach
 
-        .section.has-text-centered
+        .section.has-text-centered.content
           p
             | A Professora Teresa Raminhos deseja a todos uma Feliz Páscoa em
             | família e cheia de música!
+
+          p
+            img(src='logo.png')
