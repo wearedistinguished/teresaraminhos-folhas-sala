@@ -1,0 +1,58 @@
+html
+  head
+    meta(charset='utf-8')
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css")
+    style
+      | .main-body { margin: 1rem; }
+      | .main-body ul { margin-bottom: 2rem; }
+      | .degree { text-transform: uppercase; font-size: .8rem; color: #999; letter-spacing: .05rem; margin-left: .5rem; }
+  body
+    .container
+      .hero
+        .hero-body
+          .has-text-centered
+            div(style='margin-bottom: 2rem;')
+              h1.title
+                | Audição de Piano
+
+              h2.subtitle
+                | 19 de março de 2021, 15:20
+                br
+                | Classe da Professora Teresa Raminhos
+
+              img(src='qr.png')
+
+            h2.title
+              | Programa
+
+      .main-body
+        :markdown-it(html='true')
+          **Ana Flôr Albuquerque** <span class='degree'>Iniciação II</span>
+
+          * Once upon a dream (Sleeping Beauty) — Jack Lawrence
+          * Bingo — Fred Kern
+
+          **Rafael Camarinha** <span class='degree'>1.° Grau</span>
+
+          * Ribbons — Fred Kern
+          * On an Irish green — John Thompson
+          * Musette — J.S. Bach
+
+          **Francisca Bastos** <span class='degree'>2.° Grau</span>
+
+          * Sonatina em Sol Maior — Thomas Atwood
+
+          **Luana Valente** <span class='degree'>4.° Grau</span>
+
+          * Estudo op. 47 n.° 12 — Stephen Heller
+
+          **José Soares** <span class='degree'>8.° Grau</span>
+
+          * Estudo op. 25 n.° 2 — F. Chopin
+          * Prelúdio e Fuga em Dó menor — J.S. Bach
+
+        .section.has-text-centered
+          p
+            | A Professora Teresa Raminhos deseja a todos uma Feliz Páscoa em
+            | família e cheia de música!
