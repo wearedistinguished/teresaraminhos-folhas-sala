@@ -1,0 +1,68 @@
+html
+  head
+    meta(charset='utf-8')
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css")
+    style
+      | .main-body { margin: 1rem; }
+      | .main-body ul { margin-bottom: 2rem; }
+      | .degree { text-transform: uppercase; font-size: .8rem; color: #999; letter-spacing: .05rem; margin-left: .5rem; }
+  body
+    p.has-text-centered
+      img.splash(src='bg.png')
+
+    .container
+      .hero
+        .hero-body
+          .has-text-centered
+            div(style='margin-bottom: 2rem;')
+              h1.title
+                | Audição de Piano
+
+              h2.subtitle
+                | 26 de março de 2022, 11:00
+                br
+                | Classe da Professora Teresa Raminhos
+
+              // img(src='qr.png')
+
+            h2.title
+              | Programa
+
+      .main-body
+        :markdown-it(html='true')
+          **Eva Baptista** <span class='degree'>Iniciação IV</span>
+
+          * Estudo em Dó Maior n.º 39 — Hervé/ Pouillard
+          * Popcorn — James Bastien
+          * Formiguinhas — James Bastien
+
+          **Ana Beatriz Silva** <span class='degree'>1.º Grau</span>
+
+          * Sonatina em Dó Maior — Tobias Haslinger
+
+          **Igor Lopes** <span class="degree">1.º Grau</span>
+
+          * The Prowling Pussy Cat — Wiliam Gillock
+
+          **Manuel Soares** <span class='degree'>3.º Grau</span>
+
+          * Estudo n.º 2 op. 68 — Ludvig Schytte
+
+          **Gabriel Ferreira** <span class='degree'>3.º Grau</span>
+
+          * Sonatina op. 88 n.º 1 — Friedrich Kuhlau
+          * The calm before the storm — Phillip Keveren
+
+          **Gonçalo Soares** <span class='degree'>3.º Grau</span>
+
+          * Fine Line — Christopher Norton
+
+          **Rodrigo Marques** <span class='degree'>6.º Grau</span>
+
+          * Sonata Hob XVI: 23, 3.º andamento — Joseph Haydn
+          * Minstrels — Claude Debussy
+
+        .section.has-text-centered
+          p
+            | A Professora Teresa Raminhos deseja a todos uma Feliz Páscoa!
