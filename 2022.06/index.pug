@@ -1,0 +1,76 @@
+html
+  head
+    meta(charset='utf-8')
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css")
+    style
+      | .main-body { margin: 1rem; }
+      | .main-body ul { margin-bottom: 2rem; }
+      | .degree { text-transform: uppercase; font-size: .8rem; color: #999; letter-spacing: .05rem; margin-left: .5rem; }
+  body
+    p.has-text-centered
+      // img.splash(src='bg.png')
+
+    .container
+      .hero
+        .hero-body
+          .has-text-centered
+            div(style='margin-bottom: 2rem;')
+              h1.title
+                | Audição de Piano
+
+              h2.subtitle
+                | 26 de março de 2022, 11:00
+                br
+                | Classe da Professora Teresa Raminhos
+
+              // img(src='qr.png')
+
+            h2.title
+              | Programa
+
+      .main-body
+        :markdown-it(html='true')
+          **Eva Baptista** <span class='degree'>Iniciação IV</span>
+
+          * Bavardage em Sol Maior – Hervé/Pouillard
+          * Fantasminhas – James Bastien
+
+          **Ana Beatriz Silva** <span class='degree'>1.º Grau</span>
+
+          * Breakfast time - Allan Bullard
+          * Musette - J. S. Bach
+
+          **Igor Lopes** <span class="degree">1.º Grau</span>
+
+          * Estudo n.º 67 (Estudos de Bradley) - Carl Czerny
+
+          **Manuel Soares** <span class='degree'>3.º Grau</span>
+
+          * Trio de um Menuet em Sol menor - J. S. Bach
+          * Estudo n.º 18 op. 45 - Stephen Heller
+          * Crystal Clear - Phillip Keveren
+
+          **Gabriel Ferreira** <span class='degree'>3.º Grau</span>
+
+          * Menuet em Dó Menor (23 Peças fáceis) – J. S. Bach
+          * Estudo n.º 16 op. 45 - Stephen Heller
+
+          **Gonçalo Soares** <span class='degree'>3.º Grau</span>
+
+          * Prelúdio em Fá Maior - J. S. Bach
+          * Ballade - Friedrich Burgmüller
+
+          **Gabriel Santos** <span class="degree">4.º Grau</span>
+
+          * Estudo n.º 1 - Cramer
+          * Gôndola Veneziana n.º 6 op. 30 - Félix Mendelssohn
+
+          **Rodrigo Marques** <span class='degree'>6.º Grau</span>
+
+          * Suite Francesa em Sol Maior BWV 816: Allemande, Courante, Sarabande,
+            Gavotte, Bourree - J. S. Bach
+
+        .section.has-text-centered
+          p
+            | A Professora Teresa Raminhos deseja a todos umas boas férias!
