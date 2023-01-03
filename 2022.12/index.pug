@@ -1,0 +1,78 @@
+html
+  head
+    meta(charset='utf-8')
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css")
+    style
+      | .main-body { margin: 1rem; }
+      | .main-body ul { margin-bottom: 2rem; }
+      | .degree { text-transform: uppercase; font-size: .8rem; color: #999; letter-spacing: .05rem; margin-left: .5rem; }
+  body
+    p.has-text-centered
+      // img.splash(src='bg.png')
+
+    .container
+      .hero
+        .hero-body
+          .has-text-centered
+            div(style='margin-bottom: 2rem;')
+              h1.title
+                | Audição de Piano
+
+              h2.subtitle
+                | 14 de dezembro de 2022, 17h45
+                br
+                | Classe da Professora Teresa Raminhos
+
+              // img(src='qr.png')
+
+            h2.title
+              | Programa
+
+      .main-body
+        :markdown-it(html='true')
+          **Dylan Azevedo** <span class='degree'>Iniciação III</span>
+
+          * O sabiá — Alice Botelho
+
+          **Sara Campos** <span class='degree'>Iniciação III</span>
+
+          * No pomar — Alice Botelho
+          * O moinho de vento — Alice Botelho
+
+          **Eva Baptista** <span class='degree'>1.º Grau</span>
+
+          * Estudo n.º 51 — Hervé/Pouillard
+          * Estudo n.º 66 — Hervé/Pouillard
+          * Boogie — Gerald Martin
+
+          **Ana Beatriz Silva** <span class='degree'>2.º Grau</span>
+
+          * Russian Winter — David Blackwell
+
+          **Igor Lopes** <span class="degree">2.º Grau</span>
+
+          * Estudo n.º 26 op. 599 — Carl Czerny
+          * Journey in the Artic — John Thompson
+
+          **Gonçalo Soares** <span class='degree'>4.º Grau</span>
+
+          * Sonata em Sol Maior, n.º 31 — Domenico Cimarosa
+
+          **Manuel Soares** <span class='degree'>4.º Grau</span>
+
+          * Sonata em Si♭ Maior, n.º 11 — Domenico Cimarosa
+
+          **Gabriel Ferreira** <span class='degree'>4.º Grau</span>
+
+          * Estudo n.º 1 op. 299 — Carl Czerny
+          * Bagatela op. 5 n.º 6 — Alexander Tcherepnine
+
+          **Gabriel Santos** <span class="degree">5.º Grau</span>
+
+          * Valsa op. 69 n.º 2 — Frédéric Chopin
+          * Invenção em Lá menor — J. S. Bach
+
+        .section.has-text-centered
+          p
+            | A Professora Teresa Raminhos deseja a todos uma boa época festiva!
