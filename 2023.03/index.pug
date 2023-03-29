@@ -1,0 +1,75 @@
+html
+  head
+    meta(charset='utf-8')
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css")
+    style
+      | .main-body { margin: 1rem; }
+      | .main-body ul { margin-bottom: 2rem; }
+      | .degree { text-transform: uppercase; font-size: .8rem; color: #999; letter-spacing: .05rem; margin-left: .5rem; }
+  body
+    p.has-text-centered
+      img.splash(src='bg.png')
+
+    .container
+      .hero
+        .hero-body
+          .has-text-centered
+            // div(style='margin-bottom: 2rem;')
+            //   h1.title
+            //     | Audição de Piano
+
+            //   h2.subtitle
+            //     | 4 de janeiro de 2023, 17h45
+            //     br
+            //     | Classe da Professora Teresa Raminhos
+
+              // img(src='qr.png')
+
+            h2.title
+              | Programa
+
+      .main-body
+        :markdown-it(html='true')
+          **Dylan Azevedo** <span class='degree'>Iniciação III</span>
+
+          * O vendedor de cocadas — Alice Botelho
+          * O índio alegre — Alice Botelho
+
+          **Sara Campos** <span class='degree'>Iniciação III</span>
+
+          * A minha valsinha — Alice Botelho
+          * O índio alegre e triste — Alice Botelho
+
+          **Gabriel Santos** <span class="degree">5.º Grau</span>
+
+          * Campanários — Luís Costa
+          * Sonata K282, 3.º andamento — W. A. Mozart
+
+          **Eva Baptista** <span class='degree'>1.º Grau</span>
+
+          * Estudo n.º 68 — Hervé e Pouillard
+
+          **Ana Beatriz Silva** <span class='degree'>2.º Grau</span>
+
+          * A whole new world — Phillip Keveren
+
+          **Igor Lopes** <span class="degree">2.º Grau</span>
+
+          * Arabesco — Friedrich Burgmüller
+
+          **Gonçalo Soares** <span class='degree'>4.º Grau</span>
+
+          * Prelúdio VI — António Fragoso
+
+          **Manuel Soares** <span class='degree'>4.º Grau</span>
+
+          * Sonata Hob XVI:10, Menuet e Trio — Joseph Haydn
+
+          **Gabriel Ferreira** <span class='degree'>4.º Grau</span>
+
+          * Coucou — Louis-Claude Daquin
+
+        .section.has-text-centered
+          p
+            | A Professora Teresa Raminhos deseja a todos um feliz 2023!
