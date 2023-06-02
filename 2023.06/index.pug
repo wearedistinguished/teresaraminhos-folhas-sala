@@ -1,0 +1,79 @@
+html
+  head
+    meta(charset='utf-8')
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css")
+    style
+      | .main-body { margin: 1rem; }
+      | .main-body ul { margin-bottom: 2rem; }
+      | .degree { text-transform: uppercase; font-size: .8rem; color: #999; letter-spacing: .05rem; margin-left: .5rem; }
+  body
+    p.has-text-centered
+      img.splash(src='bg.png')
+
+    .container
+      .hero
+        .hero-body
+          .has-text-centered
+            // div(style='margin-bottom: 2rem;')
+            //   h1.title
+            //     | Audição de Piano
+
+            //   h2.subtitle
+            //     | 4 de janeiro de 2023, 17h45
+            //     br
+            //     | Classe da Professora Teresa Raminhos
+
+              // img(src='qr.png')
+
+            h2.title
+              | Programa
+
+      .main-body
+        :markdown-it(html='true')
+
+          **Dylan Palma** <span class='degree'>Iniciação III</span>
+
+          * Estudo n.º 1 — Dorothy Bradley
+          * O índio alegre e triste — Alice Botelho
+          * A escala do amor — Michael Aaron
+
+          **Sara Campos** <span class='degree'>Iniciação III</span>
+
+          * Estudo n.º 7 — Dorothy Bradley
+          * Canção de embalar — Michael Aaron
+          * No balanço — Alice Botelho
+
+          **Eva Baptista** <span class='degree'>1.º Grau</span>
+
+          * Menuet em Sol Maior — W. F. Bach
+
+          **Igor Lopes** <span class="degree">2.º Grau</span>
+
+          * At the ballet — William Gillock
+
+          **Ana Beatriz Silva** <span class='degree'>2.º Grau</span>
+
+          * Menuet em Ré menor — J. S. Bach
+
+          **Manuel Soares** <span class='degree'>4.º Grau</span>
+
+          * Invenção n.º 1 em Dó Maior — J. S. Bach
+
+          **Gonçalo Soares** <span class='degree'>4.º Grau</span>
+
+          * Prelúdio IV — António Fragoso
+
+          **Gabriel Ferreira** <span class='degree'>4.º Grau</span>
+
+          * Estudo n.º 6 op. 299 — Carl Czerny
+          * Invenção n.º 8 em Fá Maior — J. S. Bach
+
+          **Gabriel Santos** <span class="degree">5.º Grau</span>
+
+          * Sonata K282, 3.º andamento — W. A. Mozart
+          * Valsa op. 69 n.º 2 — F. Chopin
+
+        .section.has-text-centered
+          p
+            | A Professora Teresa Raminhos deseja a todos umas boas férias!
