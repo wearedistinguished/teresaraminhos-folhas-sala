@@ -1,0 +1,90 @@
+html
+  head
+    meta(charset='utf-8')
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css")
+    style
+      | .main-body { margin: 1rem; }
+      | .main-body ul { margin-bottom: 2rem; }
+      | .degree { text-transform: uppercase; font-size: .8rem; color: #999; letter-spacing: .05rem; margin-left: .5rem; }
+  body
+    p.has-text-centered
+      img.splash(src='cartaz.png')
+
+    .container
+      .hero
+        .hero-body
+          .has-text-centered
+            // div(style='margin-bottom: 2rem;')
+            //   h1.title
+            //     | Audição de Piano
+
+            //   h2.subtitle
+            //     | 4 de janeiro de 2023, 17h45
+            //     br
+            //     | Classe da Professora Teresa Raminhos
+
+            // img(src='qr.png')
+
+            h2.title
+              | Programa
+
+      .main-body
+        :markdown-it(html='true')
+
+          **Duarte Teixeira, Iniciação II**
+
+          - Party cat - Phillip Keveren
+          - Taxi tangle - Phillip Keveren
+          - Old MacDonald had a band - arr. Fred Kern
+
+          **Guilherme Simões, Iniciação III**
+
+          - Start quest - Phillip Keveren
+          - Pirates of the sea - Janet Feldman
+          - Go for the gold - Phillip Keveren
+
+          **Dylan Palma, Iniciação IV**
+
+          - Atravessando a ponte - Alice Botelho
+          - Spring - Phillip Keveren
+          - Circle dance - Phillip Keveren
+
+          **Sara Campos, Iniciação IV**
+
+          - Estudo 53 - Michael Aaron
+          - Drifting clouds - William Gillock
+          - Queen's Minuet - William Gillock
+
+          **Eva Baptista, 2.º Grau**
+
+          - Sonatina em Dó Maior - Biehl
+          - A Whole new world - arr. Phillip Keveren
+
+          **Igor Lopes, 3.º Grau**
+
+          - Nocturne - Mona Rejino
+
+          **Gonçalo Soares, 5.º Grau**
+
+          - Prelúdio IV e VI - António Fragoso
+
+          **Manuel Soares, 5.º Grau**
+
+          - Sinfonia n.º 5 - J. S. Bach
+
+          **Gabriel Ferreira, 5.º Grau**
+
+          - Invenção a duas vozes em Si b Maior - J. S. Bach
+
+          **Gabriel Santos, 6.º Grau**
+
+          - Estudo op. 91 n.º 17 - M. Moszkowski
+          - Novelette em Dó Maior - Francis Poulenc
+
+        .section.has-text-centered
+          p
+            | A prof. Teresa Raminhos deseja a todos os pais e Encarregados de Educação uma Feliz Páscoa.
+          br
+          p
+            img(src='footer.png' width=250)
